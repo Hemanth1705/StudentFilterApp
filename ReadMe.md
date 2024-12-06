@@ -11,8 +11,7 @@ A web-based application for filtering and sorting student data based on subject 
   - Apply filters to specific subjects such as `English`, `Maths`, `Science`, and `Social Science`.
 
 - **Sorting Functionality**:
-  - Sort students by any column (e.g., Name, Subject Scores).
-  - Click on column headers to sort data in ascending order.
+  - Sort students by any column (e.g., Name).
 
 - **Clear Filters**:
   - Reset the table to show all students without filters.
@@ -52,16 +51,10 @@ StudentFilterApp/
   - Click the **Filter** button to apply the filter.
   
 - **Sort Students**:
-  - Click on any column header (e.g., Name, English) to sort the data by that column.
+  - Click on any column header (e.g., Name) to sort the data by that column.
 
 - **Clear Filters**:
   - Use the **Clear** button to reset the table to its original state.
-
----
-
-## **Live Demo**
-
-*Add a link here if you host the project, e.g., on GitHub Pages or Netlify.*
 
 ---
 
