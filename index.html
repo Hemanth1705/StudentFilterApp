@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Filter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Details Filtering and Sorting</h1>
+
+    <div id="filter-section">
+        <label for="subject">Select Subject:</label>
+        <select id="subject">
+            <option value="English">English</option>
+            <option value="Maths">Maths</option>
+            <option value="Science">Science</option>
+            <option value="SocialScience">Social Science</option>
+        </select>
+
+        <div id="filter-options">
+            <input type="radio" name="filter" value="Above" id="above">
+            <label for="above">Above</label>
+            <input type="radio" name="filter" value="Below" id="below">
+            <label for="below">Below</label>
+            <input type="radio" name="filter" value="Between" id="between">
+            <label for="between">Between</label>
+        </div>
+
+        <div id="filter-values">
+            <input type="number" id="filter-value-1" placeholder="Enter Value 1">
+            <input type="number" id="filter-value-2" placeholder="Enter Value 2" style="display: none;">
+        </div>
+
+        <button id="filter-btn">Filter</button>
+        <button id="clear-btn">Clear</button>
+    </div>
+
+    <table id="student-table">
+        <thead>
+            <tr>
+                <th id="sort-sno">S.No</th>
+                <th id="sort-name">Name</th>
+                <th id="sort-english">English</th>
+                <th id="sort-maths">Maths</th>
+                <th id="sort-science">Science</th>
+                <th id="sort-socialscience">Social Science</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

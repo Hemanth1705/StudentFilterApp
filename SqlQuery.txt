@@ -1,0 +1,5 @@
+SELECT Name, JoinDate
+FROM Employees
+WHERE JoinDate >= DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH);
+
+If we take Todays date as, 2024-10-10 (for example) and substitute it in the CURRENT_DATE in the query then we will get the final output. 

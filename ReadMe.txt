@@ -1,0 +1,1 @@
+After downloading the zip file please rename script.txt back to script.js. If i send it like script.js then gmail is blocking my file because of that i am sending it like this mam.
